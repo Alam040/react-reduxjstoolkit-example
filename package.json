@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gp-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "set \"GENERATE_SOURCEMAP=false\" && react-scripts start",
     "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
     "test": "react-scripts test",

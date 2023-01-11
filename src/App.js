@@ -15,9 +15,11 @@ function App() {
     </div>
     <Suspense fallback={"Loading..."}>
     <Routes>
+      <Route path="/*">
       <Route path='counter' element={<CounterApp />} />
-      <Route path='/' element={<CounterApp />} />
+      <Route index element={<CounterApp />} />
       <Route path='post' element={<PostsView />} />
+      </Route>
     </Routes>
     </Suspense>
     </BrowserRouter>
