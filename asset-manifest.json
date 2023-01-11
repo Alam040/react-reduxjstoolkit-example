@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/react-reduxjstoolkit-example/static/css/main.b9cfbfc9.css",
-    "main.js": "/react-reduxjstoolkit-example/static/js/main.b8581648.js",
+    "main.css": "/react-reduxjstoolkit-example/static/css/main.e50cb6d5.css",
+    "main.js": "/react-reduxjstoolkit-example/static/js/main.c531b9b6.js",
+    "static/js/59.3252ba3f.chunk.js": "/react-reduxjstoolkit-example/static/js/59.3252ba3f.chunk.js",
+    "static/js/862.58ad1e45.chunk.js": "/react-reduxjstoolkit-example/static/js/862.58ad1e45.chunk.js",
     "static/js/918.dbfea91e.chunk.js": "/react-reduxjstoolkit-example/static/js/918.dbfea91e.chunk.js",
-    "static/js/71.e2ed4921.chunk.js": "/react-reduxjstoolkit-example/static/js/71.e2ed4921.chunk.js",
+    "static/js/71.c72ff923.chunk.js": "/react-reduxjstoolkit-example/static/js/71.c72ff923.chunk.js",
     "static/js/27.6e68cdff.chunk.js": "/react-reduxjstoolkit-example/static/js/27.6e68cdff.chunk.js",
     "index.html": "/react-reduxjstoolkit-example/index.html"
   },
   "entrypoints": [
-    "static/css/main.b9cfbfc9.css",
-    "static/js/main.b8581648.js"
+    "static/css/main.e50cb6d5.css",
+    "static/js/main.c531b9b6.js"
   ]
 }
