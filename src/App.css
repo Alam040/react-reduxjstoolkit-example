@@ -28,6 +28,99 @@
   color: #61dafb;
 }
 
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.title{
+  font: 1.2rem;
+  text-align: center;
+}
+
+.section{
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+
+article{
+  background: rgba(56, 173, 169,0.5);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+article p {
+  margin-top: 0.3rem;
+  text-align: justify;
+  font-weight: 500;
+}
+.counter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.counter h3{
+  font-weight: 600;
+}
+
+.counter div{
+  margin-top: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter div button{
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0.2rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  color: #fff;
+}
+
+.counter div button:nth-child(1){
+  background-color: green;
+}
+.counter div button:nth-child(2){
+  background-color: blue;
+}
+.counter div button:nth-child(3){
+  background-color: rgba(235, 47, 6,1.0);
+}
+.counter div button:nth-child(4){
+  background-color: rgba(255, 165, 2,1.0);
+}
+
+.navbar{
+  padding: 0.5rem 1rem;
+  background: rgba(12, 36, 97,0.3);
+}
+.navbar a{
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+.active{
+  color: blue !important;
+}
+
+@media screen and (max-width: 992px) {
+  .section{
+    grid-template-columns: auto;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
